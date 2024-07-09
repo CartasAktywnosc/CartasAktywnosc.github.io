@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classmates Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-container">
+        <input id="classmate-name" type="text" placeholder="Classmate name">
+        <select id="day-select">
+            <option value="">Select day</option>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+        </select>
+        <button id="update-attendance">Update attendance</button>
+    </div>
+
+    <table id="attendance-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody id="attendance-data">
+        </tbody>
+    </table>
+    
+    
+    
+<table id="attendance-table">
+    <tbody id="attendance-table-body">
+        <!-- table rows will be generated here -->
+    </tbody>
+</table>
+
+    <div id="summary-table-container">
+        <h2>Summary</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
